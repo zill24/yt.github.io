@@ -24,7 +24,7 @@ function gestureStart() {
 })("woopra");
 
 woopra.config({
-    domain: 'myresume.byethost9.com'
+    domain: 'zill24.github.io'
 });
 woopra.track();
 </script>
