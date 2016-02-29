@@ -790,6 +790,17 @@ woopra.track();
 </script>
 <!-- End of Woopra Code -->
 
+<script>
+$(document).on('keydown', function(e) {
+    if(e.ctrlKey && (e.key == "p" || e.charCode == 16 || e.charCode == 112 || e.keyCode == 80) ){
+        alert("Please use the Print PDF button below for a better rendering on the document");
+        e.cancelBubble = true;
+        e.preventDefault();
+
+        e.stopImmediatePropagation();
+    }  
+});
+</script>
 
 
 </body>
